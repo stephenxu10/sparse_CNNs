@@ -7,7 +7,7 @@ from torch import nn
 from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision.transforms import transforms
-from models.models import SparseConv2d
+from layers.models import SparseConv2d
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 

@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision.transforms import transforms
 from layers.convolutions import LinearCNNLayer
-from layers.SparseNet import SparseLeNet
+from models.SparseNet import SparseLeNet
 from GoldStandard import GoldNet
 from Graphing import plot_lines
 
